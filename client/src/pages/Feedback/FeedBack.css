@@ -1,0 +1,22 @@
+.feedback-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    background-color:orange;
+    height: 100vh;
+}
+.feedback-container form{
+    margin: 50px 0px;
+    border: 2px solid;
+    padding: 60px;
+}
+.feed-back-btn{
+    width: 100%;
+    margin-top: 20px;
+    border-style: none;
+    padding: 10px;
+}
+.feed-back-btn:hover{
+    background-color: orangered;
+}

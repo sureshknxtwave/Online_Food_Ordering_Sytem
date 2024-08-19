@@ -1,0 +1,77 @@
+/* Profile.css */
+
+/* Offcanvas styling */
+.offcanvas {
+    width: 300px;
+    background-color: #FAA300;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animation */
+  .offcanvas {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .offcanvas.open {
+    transform: translateX(0);
+  }
+  
+  /* Backdrop styling */
+  .offcanvas-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Close button styling */
+  .offcanvas-close-button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offcanvas-close-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Text and icon styling */
+  .offcanvas-body {
+    color: #333;
+    font-family: 'Roboto', sans-serif; /* Choose a suitable font family */
+  }
+  
+  .offcanvas-title {
+    color:white;
+    font-size: 1.5rem; /* Adjust title font size */
+  }
+  
+  /* Profile information styling */
+  .profile-info {
+    animation: fadeInUp 0.5s ease; 
+    color: white;/* Add a fade-in animation */
+  }
+
+
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .offcanvas {
+      width: 100%;
+    }
+  }
+  
+  /* Additional styling as needed */
+  

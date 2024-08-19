@@ -1,0 +1,149 @@
+/* HomePage.css */
+
+.Home-Banner-Section{
+  background-image: url('../../components/HomeBannerSection.jpg');
+  height: 100vh;
+  
+  background-size: cover;
+  
+  
+}
+
+.Home-Banner-Section-card{
+  
+  width: 40%;
+  box-sizing: border-box;
+  margin-left: 50px;
+
+}
+.Home-Banner-Section-card-icon{
+  height: 60px;
+  margin: 10px;
+}
+.Home-Banner-Section-card-heading{
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 10px;
+}
+.Home-Banner-Section-card-dicription{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 10px;
+}
+
+
+
+.foods-section{
+  
+  padding:50px;
+}
+
+.food-list {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content:center;
+  }
+  
+  .food-item {
+    
+    margin: 20px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+  }
+
+  
+  
+  .food-item img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40%;
+  }
+  
+
+  
+  .food-item h1{
+    font-size: 23px;
+    color: black;
+  }
+  .price{
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+  }
+  .price span{
+    font-weight: bold;
+    color: green;
+  }
+  .food-item button{
+    border-style: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 14px;
+  }
+  .food-item button:hover{
+    background-color:orangered ;
+    color: white;
+}
+  
+  .foods-container{
+    padding: 20px;
+    border-style: solid 1px black;
+  }
+  .search-bar{
+    text-align: center;
+  }
+  .food-dis{
+    font-size:13px !important;
+  }
+  
+
+  .foods-section-heading{
+    font-size: 40px;
+    color: rgb(52, 51, 51);
+    margin: 30px 0px;
+  }
+
+  .search{
+    width: 50%;
+    height: 40px;
+    border: 3px solid orange;
+    border-radius: 40px;
+    padding: 10px;
+    outline: none;
+    color:orchid;
+    margin-bottom: 40px;
+
+  }
+
+
+  .page-link{
+    color: orange;
+  }
+  
+
+
+  @media screen and (max-width: 767px) {
+    .Home-Banner-Section-card-heading{
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      margin: 10px;
+    }
+    .Home-Banner-Section-card-dicription{
+      font-size: 13px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      margin: 10px;
+    }
+    
+    
+  }

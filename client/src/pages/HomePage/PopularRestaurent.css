@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.pop-res-card{
+
+}
+.pop-res-card-img{
+    width: 100%;
+}
+.pop-res-card-title{
+    color: #323f4b;
+    
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.pop-res-card-time{
+    color:rgb(218, 29, 29);
+    
+    font-size: 14px;
+    
+    
+}
+.pop-res-card-address{
+    color: #323f4b;
+    
+    font-size: 14px;
+    
+}

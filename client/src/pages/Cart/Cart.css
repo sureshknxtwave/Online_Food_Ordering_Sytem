@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Cart-section{
+    background-image: url('../../components/HomeBannerSection.jpg');
+    height: auto;
+    min-height: 100vh;
+    padding: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+article{
+    width:85%;
+    margin-top: 75px;
+    background:transparent;
+    padding: 20px 150px;
+    
+}
+
+.cart_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px orange;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.cart_img{
+    height: 80px;
+    border-radius: 10px;
+}
+.cart_name{
+    font-size: 28px;
+    color: orange;
+    font-weight: bold;
+}
+.cart-btn1{
+    border-style: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cart-btn2{
+    border-style: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cart-btn3{
+    border-style: none;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    padding: 1px 5px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.item-price{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.cart-remove_btn{
+    border-style: none;
+    background-color:red;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.Total-price-card{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.total {
+    color: white;
+    width: 350px;
+    box-shadow: shadow;
+    background-color: white;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+}
+hr{
+    color: rgb(6, 1, 1);
+    border-width: 3px;
+}
+.total-price{
+    color: orange;
+}
+.total h4 {
+    color: orange;
+}
+.total div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total div h6{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.place-order-btn{
+    width: 100%;
+    border-style: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    background-color:rgba(255, 183, 0, 0.944);
+}
+.place-order-btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+@media screen and (max-width: 767px) {
+    .Cart-section{
+        background-image: url('../../components/HomeBannerSection.jpg');
+        height: auto;
+        padding: 10px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cart_box{
+       
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    article{
+        width:85%;
+        margin-top: 75px;
+        background:transparent;
+        padding: 20px 30px;
+        
+    }
+    
+    
+  }
